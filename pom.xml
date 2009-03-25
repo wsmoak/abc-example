@@ -7,7 +7,8 @@
 	<packaging>pom</packaging>
 	<name>ABC Example</name>
 	<scm>
-		<connection>scm:git:git://github.com:wsmoak/abc-example.git</connection>
+		<connection>scm:git:git://github.com/wsmoak/abc-example.git</connection>
+		<developerConnection>scm:git:git://github.com:wsmoak/abc-example.git</developerConnection>
 		<url>http://github.com/wsmoak/abc-example/tree/master</url>
 	</scm>
   <modules>
