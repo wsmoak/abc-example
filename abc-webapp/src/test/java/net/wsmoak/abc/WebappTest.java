@@ -20,8 +20,8 @@ public class WebappTest extends TestCase {
 
 	public void testNew() throws Exception {
 		selenium.open("http://localhost:8080/abc/");
-        Thread.sleep(5000);
+        Thread.sleep(2500);
 		assertTrue(selenium.isTextPresent("Hello World!"));
-        Thread.sleep(5000);
+        Thread.sleep(2500);
 	}
 }
